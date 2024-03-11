@@ -1,0 +1,27 @@
+{
+  "name": "noobcash",
+  "version": "1.0.4",
+  "description": "noob cash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "post-merge": "hawkeye"
+    }
+  },
+  "hawkeye": {
+    "package.json": [
+      "npm install"
+    ]
+  },
+  "author": "naya-cat-1",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^3.4.21"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  }
+}

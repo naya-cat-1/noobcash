@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naya-cat-1/noobcash"
+  },
+  "website": "https://github.com/naya-cat-1/noobcash.git",
   "husky": {
     "hooks": {
       "post-merge": "hawkeye"

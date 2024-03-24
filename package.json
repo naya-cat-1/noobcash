@@ -1,6 +1,6 @@
 {
   "name": "noobcash",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "noob cash",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,9 @@
     "vue": "^3.4.21"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "shitmaker": "^1.0.0",
+    "pepemaker": "^1.0.1"
   },
   "bugs": {
     "url": "https://github.com/naya-cat-1/noobcash/issues"

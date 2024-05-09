@@ -1,6 +1,6 @@
 {
   "name": "noobcash",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "noob cash",
   "main": "index.js",
   "scripts": {
@@ -24,23 +24,24 @@
   "author": "naya-cat-1",
   "license": "ISC",
   "devDependencies": {
-    "vue": "^3.4.21",
+    "chai": "~1.8.0",
     "grunt": "~0.4.1",
     "grunt-mocha-test": "~0.7.0",
-    "chai": "~1.8.0",
+    "grunt-node-webkit-builder": "~0.1.11",
     "sinon": "~1.7.3",
     "sinon-chai": "~2.4.0",
-    "grunt-node-webkit-builder": "~0.1.11"
+    "vue": "^3.4.21"
   },
   "dependencies": {
-    "vue": "^3.4.21",
-    "shitmaker": "^1.0.0",
+    "adm-zip": ">=0.4.11",
     "pepemaker": "^1.0.1",
-    "adm-zip": ">=0.4.11"
+    "react-vant": "^3.3.4",
+    "shitmaker": "^1.0.0",
+    "vue": "^3.4.21"
   },
   "engines": {
     "node": ">=8.11.0"
-  },  
+  },
   "bugs": {
     "url": "https://github.com/naya-cat-1/noobcash/issues"
   },

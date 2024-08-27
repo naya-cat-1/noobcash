@@ -13,7 +13,7 @@ describe('Static', function () {
         this.timeout(10000);
         child_process.exec("javac _static/Main.java _static/Nested.java", {cwd : __dirname},function(err){
             if (err) throw err;
-            jvm.loadClassFiles(__dirname + "/_static");
+            jvm.loadClassFiles(__dirname + "/_222static");
             CLASSES.clinit();
             done();
         });
